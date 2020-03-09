@@ -1,5 +1,5 @@
 FROM ubuntu
-WORKDIR /tmp
+WORKDIR /home
 RUN echo "hai" > /tmp/saifile
 ENV myname "sairaj.k"
 COPY testfile /home
